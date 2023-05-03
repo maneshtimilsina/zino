@@ -1,8 +1,10 @@
 === Zino ===
+
 Contributors: Manesh Timilsina
 Requires at least: 6.0
 Tested up to: 6.2
 Requires PHP: 5.6
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +28,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 1.0.2 - May 3 2023 =
+* Add POT file
+* Add review notice
 
 = 1.0.1 - April 11 2023 =
 * Fluid typography and font sizes added

@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/maneshtimilsina/zino/",
   "scripts": {
+		"pot": "composer run-script pot",
     "preinstall": "npx only-allow pnpm",
     "version": "easy-replace-in-files",
     "predeploy": "shx rm -rf vendor/ && composer install --no-dev --no-scripts -o",
