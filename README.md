@@ -1,0 +1,2 @@
+# zino
+Zino WordPress Theme
