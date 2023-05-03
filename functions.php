@@ -1,20 +1,25 @@
 <?php
-
 /**
- * Theme functions and definitions.
+ * Theme functions and definitions
+ *
  * @author     ManeshTimilsina
  * @copyright  (c) Copyright by ManeshTimilsina
  * @link       https://wpmanesh.com/
  * @package    Zino
- * @since      0.0.1
  */
+
 if ( !defined( 'ABSPATH' ) ) {
-    exit( 'Direct script access denied.' );
+	exit( 'Direct script access denied.' );
 }
 
-define( 'ZINO_VERSION', '1.0.1' );
+define( 'ZINO_VERSION', '1.0.2' );
 define( 'ZINO_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'ZINO_URI', rtrim( get_template_directory_uri(), '/' ) );
+
+// Load autoload.
+if ( file_exists( ZINO_DIR . '/vendor/autoload.php' ) ) {
+	require_once ZINO_DIR . '/vendor/autoload.php';
+}
 
 /*--------------------------------------------------------------
 # Theme Supports
@@ -47,3 +52,20 @@ if ( !function_exists( 'zino_styles' ) ) {
 }
 
 add_action( 'wp_enqueue_scripts', 'zino_styles' );
+
+/**
+ * Add admin notice.
+ *
+ * @since 1.0.2
+ */
+function zino_add_admin_notice() {
+	\Nilambar\AdminNotice\Notice::init(
+		array(
+			'slug' => 'zino',
+			'type' => 'theme',
+			'name' => esc_html__( 'Zino', 'zino' ),
+		)
+	);
+}
+
+add_action( 'admin_init', 'zino_add_admin_notice' );
