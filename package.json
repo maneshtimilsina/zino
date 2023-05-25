@@ -1,6 +1,6 @@
 {
   "name": "zino",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "repository": {
     "type": "git",
@@ -8,19 +8,22 @@
   },
   "homepage": "https://github.com/maneshtimilsina/zino/",
   "scripts": {
-		"pot": "composer run-script pot",
+    "pot": "composer run-script pot",
     "preinstall": "npx only-allow pnpm",
     "version": "easy-replace-in-files",
     "predeploy": "shx rm -rf vendor/ && composer install --no-dev --no-scripts -o",
-    "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
+    "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
   },
   "browserslist": "> 1%, not dead",
-  "keywords": [],
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
   "author": "",
-  "license": "MIT",
+  "license": "GPL-2.0-or-later",
   "devDependencies": {
     "bestzip": "^2.2.1",
-    "copy-files-from-to": "^3.8.0",
+    "copy-files-from-to": "^3.9.0",
     "cross-var": "^1.1.0",
     "easy-replace-in-files": "^1.0.3",
     "shx": "^0.3.4"
