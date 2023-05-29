@@ -4,7 +4,7 @@ Contributors: Manesh Timilsina
 Requires at least: 6.0
 Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 1.0.4 - May 29 2023 =
+* Fix post grid spacing issue
 
 = 1.0.3 - May 25 2023 =
 * Update Admin Notice package
