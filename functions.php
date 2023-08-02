@@ -4,7 +4,7 @@
  *
  * @author     ManeshTimilsina
  * @copyright  (c) Copyright by ManeshTimilsina
- * @link       https://wpmanesh.com/
+ * @link       https://maneshtimilsina.com/
  * @package    Zino
  */
 
@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
 	exit( 'Direct script access denied.' );
 }
 
-define( 'ZINO_VERSION', '1.0.4' );
+define( 'ZINO_VERSION', '1.0.5' );
 define( 'ZINO_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'ZINO_URI', rtrim( get_template_directory_uri(), '/' ) );
 
