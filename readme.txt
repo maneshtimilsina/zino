@@ -2,9 +2,9 @@
 
 Contributors: Manesh Timilsina
 Requires at least: 6.0
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.6
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 1.0.6 - August 16 2023 =
+* Navigation styles updated
+* Default menu item added
 
 = 1.0.5 - August 02 2023 =
 * Update theme URI and other links

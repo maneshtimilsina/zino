@@ -12,6 +12,18 @@
 
 <!-- wp:site-title {"textAlign":"center","textColor":"white"} /-->
 
-<!-- wp:navigation {"ref":7,"textColor":"white","icon":"menu","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"3rem"}}} /--></div></div>
+<!-- wp:navigation {"textColor":"white","icon":"menu","overlayBackgroundColor":"black","overlayTextColor":"white","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"3rem"}}} -->
+<!-- wp:navigation-link {"label":"Home","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+<!-- wp:navigation-link {"label":"About Us","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+<!-- wp:navigation-link {"label":"Services","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+<!-- wp:navigation-link {"label":"Resources","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+<!-- wp:navigation-link {"label":"Portfolio","url":"#","kind":"custom","isTopLevelLink":true} /-->
+
+<!-- wp:navigation-link {"label":"Contact Us","url":"#","kind":"custom","isTopLevelLink":true} /-->
+<!-- /wp:navigation --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
