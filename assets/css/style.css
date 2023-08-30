@@ -81,7 +81,8 @@ footer ul li a {
   margin-top: 6rem;
 }
 
-.wp-block-query ul.is-flex-container li.wp-block-post + li.wp-block-post {
+.wp-block-query ul.is-flex-container li.wp-block-post + li.wp-block-post,
+.wp-block-query ul.is-layout-grid li.wp-block-post + li.wp-block-post {
   margin-top: 0;
 }
 
