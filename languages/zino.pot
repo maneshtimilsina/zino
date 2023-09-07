@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zino 1.0.7\n"
+"Project-Id-Version: Zino 1.0.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zino\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.1\n"
+"X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: zino\n"
 
 #. Theme Name of the theme
@@ -37,7 +37,7 @@ msgstr ""
 
 #: patterns/header.php
 msgctxt "Pattern title"
-msgid "header"
+msgid "Header"
 msgstr ""
 
 #: patterns/header.php:11
