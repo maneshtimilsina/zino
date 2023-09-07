@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: header
+ * Title: Header
  * Slug: zino/header
  * Categories: hidden
  * Inserter: no
