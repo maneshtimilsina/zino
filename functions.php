@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
 	exit( 'Direct script access denied.' );
 }
 
-define( 'ZINO_VERSION', '1.0.8' );
+define( 'ZINO_VERSION', '1.0.9' );
 define( 'ZINO_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'ZINO_URI', rtrim( get_template_directory_uri(), '/' ) );
 
@@ -46,8 +46,7 @@ add_action( 'after_setup_theme', 'zino_setup' );
 
 if ( !function_exists( 'zino_styles' ) ) {
   function zino_styles() {
-    wp_register_style( 'zino-style', ZINO_URI . '/assets/css/style.css' );
-    wp_enqueue_style( 'zino-style' );
+    wp_enqueue_style( 'zino-style', get_stylesheet_uri(), array(), ZINO_VERSION );
   }
 }
 

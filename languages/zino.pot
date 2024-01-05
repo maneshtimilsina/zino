@@ -1,8 +1,8 @@
-# Copyright (C) 2023 Manesh Timilsina
+# Copyright (C) 2024 Manesh Timilsina
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zino 1.0.8\n"
+"Project-Id-Version: Zino 1.0.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/zino\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Domain: zino\n"
 
 #. Theme Name of the theme
-#: functions.php:66
+#: functions.php:65
 msgid "Zino"
 msgstr ""
 
