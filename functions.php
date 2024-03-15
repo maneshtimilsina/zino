@@ -9,16 +9,16 @@
  */
 
 if ( !defined( 'ABSPATH' ) ) {
-	exit( 'Direct script access denied.' );
+  exit( 'Direct script access denied.' );
 }
 
-define( 'ZINO_VERSION', '1.1.0' );
+define( 'ZINO_VERSION', '1.1.1' );
 define( 'ZINO_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'ZINO_URI', rtrim( get_template_directory_uri(), '/' ) );
 
 // Load autoload.
 if ( file_exists( ZINO_DIR . '/vendor/autoload.php' ) ) {
-	require_once ZINO_DIR . '/vendor/autoload.php';
+  require_once ZINO_DIR . '/vendor/autoload.php';
 }
 
 /*--------------------------------------------------------------
@@ -46,7 +46,7 @@ add_action( 'after_setup_theme', 'zino_setup' );
 
 if ( !function_exists( 'zino_styles' ) ) {
   function zino_styles() {
-    wp_enqueue_style( 'zino-style', get_stylesheet_uri(), array(), ZINO_VERSION );
+    wp_enqueue_style( 'zino-style', ZINO_URI . '/style.css', array(), ZINO_VERSION );
   }
 }
 
@@ -58,19 +58,19 @@ add_action( 'wp_enqueue_scripts', 'zino_styles' );
  * @since 1.0.2
  */
 function zino_add_admin_notice() {
-	\Nilambar\AdminNotice\Notice::init(
-		array(
-			'slug' => 'zino',
-			'type' => 'theme',
-			'name' => esc_html__( 'Zino', 'zino' ),
-		)
-	);
+  \Nilambar\AdminNotice\Notice::init(
+    array(
+      'slug' => 'zino',
+      'type' => 'theme',
+      'name' => esc_html__( 'Zino', 'zino' ),
+    )
+  );
 }
 
 add_action( 'admin_init', 'zino_add_admin_notice' );
 
 function zino_add_donate_link() {
-	echo '<span style="font-weight: bold;"><a href="https://ko-fi.com/maneshtimilsina" target="_blank">Buy Me a Coffee</a></span>';
+  echo '<span style="font-weight: bold;"><a href="https://ko-fi.com/maneshtimilsina" target="_blank">Buy Me a Coffee</a></span>';
 }
 
 add_action( 'zino_after_admin_notice_link_items', 'zino_add_donate_link' );
