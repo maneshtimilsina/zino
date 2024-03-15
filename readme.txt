@@ -31,6 +31,7 @@ GNU General Public License for more details.
 
 = 1.1.1 - March 15, 2024 =
 * Fix child theme compatibility issue
+* Update responsive menu spaces
 
 = 1.1.0 - February 26, 2024 =
 * Update donate link

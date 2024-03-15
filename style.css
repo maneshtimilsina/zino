@@ -42,6 +42,11 @@ body {
   padding: 0;
 }
 
+.wp-block-navigation__responsive-container.is-menu-open {
+  padding-inline: var(--wp--preset--spacing--50);
+  padding-block-start: var(--wp--preset--spacing--50);
+}
+
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item,
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container,
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
