@@ -2,9 +2,9 @@
 
 Contributors: Manesh Timilsina
 Requires at least: 6.0
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 1.1.2 - June 27, 2024 =
+* Fix space issue in nav
 
 = 1.1.1 - March 15, 2024 =
 * Fix child theme compatibility issue
