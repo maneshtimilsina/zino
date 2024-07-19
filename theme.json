@@ -261,10 +261,10 @@
 							}
 						},
 						"color": {
-							"text": "#008aff"
+							"text": "inherit"
 						},
 						"typography": {
-							"textDecoration": "underline"
+							"textDecoration": "inherit"
 						}
 					}
 				},
