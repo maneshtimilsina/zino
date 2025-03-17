@@ -1,31 +1,31 @@
 {
-  "name": "zino",
-  "version": "1.1.5",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/maneshtimilsina/zino/"
-  },
-  "homepage": "https://github.com/maneshtimilsina/zino/",
-  "scripts": {
-    "pot": "composer run-script pot",
-    "preinstall": "npx only-allow pnpm",
-    "version": "easy-replace-in-files",
-    "predeploy": "shx rm -rf vendor/ && composer install --no-dev --no-scripts -o",
-    "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
-  },
-  "browserslist": "> 1%, not dead",
-  "keywords": [
-    "wordpress",
-    "theme"
-  ],
-  "author": "",
-  "license": "GPL-2.0-or-later",
-  "devDependencies": {
-    "bestzip": "^2.2.1",
-    "copy-files-from-to": "^3.12.0",
-    "cross-var": "^1.1.0",
-    "easy-replace-in-files": "^1.0.3",
-    "shx": "^0.3.4"
-  }
+	"name": "zino",
+	"version": "1.1.6",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/maneshtimilsina/zino/"
+	},
+	"homepage": "https://github.com/maneshtimilsina/zino/",
+	"scripts": {
+		"pot": "composer run-script pot",
+		"preinstall": "npx only-allow pnpm",
+		"version": "easy-replace-in-files",
+		"predeploy": "shx rm -rf vendor/ && composer install --no-dev --no-scripts -o",
+		"deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
+	},
+	"browserslist": "> 1%, not dead",
+	"keywords": [
+		"wordpress",
+		"theme"
+	],
+	"author": "",
+	"license": "GPL-2.0-or-later",
+	"devDependencies": {
+		"bestzip": "^2.2.1",
+		"copy-files-from-to": "^3.12.0",
+		"cross-var": "^1.1.0",
+		"easy-replace-in-files": "^1.0.3",
+		"shx": "^0.3.4"
+	}
 }
