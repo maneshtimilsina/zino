@@ -4,7 +4,7 @@ Contributors: Manesh Timilsina
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.9
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 1.2.0 - November 17, 2025 =
+* Fix escaping in patterns
 
 = 1.1.9 - October 11, 2025 =
 * X icon and link updated
