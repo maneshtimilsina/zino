@@ -55,6 +55,26 @@ msgid "No Title and Space"
 msgstr ""
 
 #: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
 msgctxt "Font size name"
 msgid "xSmall"
 msgstr ""
