@@ -32,7 +32,7 @@ if ( !function_exists( 'zino_setup' ) ) {
     add_theme_support( 'title-tag' );
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'editor-styles' );
-    add_theme_support( 'html5', array( 'comment-form', 'comment-list' ) );
+    add_theme_support( 'html5', array( 'comment-form', 'comment-list', 'search-form', 'gallery', 'caption', 'script', 'style' ) );
     add_theme_support( 'responsive-embeds' );
   }
 }
