@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
   exit( 'Direct script access denied.' );
 }
 
-define( 'ZINO_VERSION', '1.2.7' );
+define( 'ZINO_VERSION', '1.2.8' );
 define( 'ZINO_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'ZINO_URI', rtrim( get_template_directory_uri(), '/' ) );
 
@@ -55,7 +55,7 @@ add_action( 'wp_enqueue_scripts', 'zino_styles' );
 # Admin Page
 --------------------------------------------------------------*/
 
-require_once __DIR__ . '/inc/admin-page.php';
+require_once __DIR__ . '/inc/dashboard/admin-page.php';
 
 /**
  * Add admin notice.
