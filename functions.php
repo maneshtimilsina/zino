@@ -73,9 +73,3 @@ function zino_add_admin_notice() {
 }
 
 add_action( 'admin_init', 'zino_add_admin_notice' );
-
-function zino_add_donate_link() {
-  echo '<span style="font-weight: bold;"><a href="https://zinowp.com/pricing/" target="_blank" rel="noopener">Upgrade to Pro</a></span>';
-}
-
-add_action( 'zino_after_admin_notice_link_items', 'zino_add_donate_link' );
