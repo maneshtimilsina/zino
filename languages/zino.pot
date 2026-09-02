@@ -22,7 +22,7 @@ msgstr ""
 
 #. Theme URI of the theme
 #: style.css:3
-msgid "https://zinowp.com/"
+msgid "https://zinowp.com/zino-wordpress-theme/"
 msgstr ""
 
 #. Description of the theme
