@@ -22,7 +22,7 @@
 	"author": "",
 	"license": "GPL-2.0-or-later",
 	"devDependencies": {
-		"bestzip": "^3.0.1",
+		"bestzip": "^3.0.3",
 		"copy-files-from-to": "^4.0.1",
 		"cross-var": "^1.1.0",
 		"easy-replace-in-files": "^2.0.0",
