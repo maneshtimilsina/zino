@@ -2,9 +2,9 @@
 
 Contributors: Manesh Timilsina
 Requires at least: 6.6
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 == Changelog ==
+
+= 1.2.8 - September 02, 2026 =
+* Dashboard Update
+* Theme URI Update
 
 = 1.2.7 - July 17, 2026 =
 * Update theme URI
