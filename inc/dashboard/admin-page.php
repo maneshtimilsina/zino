@@ -55,8 +55,8 @@ function zino_admin_page() {
 							<svg viewBox="0 0 24 24"><path d="m14 6 4 4"/><path d="M5 19l1-4L15.5 5.5a2.1 2.1 0 0 1 3 3L9 18z"/><path d="M12 20h7"/></svg>
 						</div>
 						<div class="zwp-card-content">
-							<h3>Customize Theme</h3>
-							<p>Make Zino yours with the WordPress Site Editor. Customize colors, typography, layouts, templates, and more.</p>
+							<h3>Site Editor</h3>
+							<p>Customize colors, typography, layouts, templates, and more.</p>
 						</div>
 						<div class="zwp-arrow">→</div>
 					</a>
@@ -78,7 +78,7 @@ function zino_admin_page() {
 						</div>
 						<div class="zwp-card-content">
 							<h3 class="zwp-stars">★★★★★</h3>
-							<p>Please consider sharing your feedback with the community. Your review helps other WordPress users discover Zino.</p>
+							<p>Please consider sharing your feedback with the community.</p>
 						</div>
 						<div class="zwp-arrow">→</div>
 					</a>
