@@ -29,6 +29,10 @@ GNU General Public License for more details.
 
 == Changelog ==
 
+= 1.2.8 - September 02, 2026 =
+* Dashboard Update
+* Theme URI Update
+
 = 1.2.7 - July 17, 2026 =
 * Update theme URI
 
